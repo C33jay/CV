@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+hr {
+  width: 90%;
+  margin: auto;
+  color: grey;
+}
+.container {
+  margin: 50px auto;
+  display: flex;
+  width: 90%;
+}
+.profile-details {
+  margin: 2px;
+  padding: 10px;
+  color: #009688;
+  letter-spacing: 1.5px;
+}
+
+.profile i {
+  color: #009688;
+}
+.profile {
+  color: #5c5c5c;
+}
+
+aside,
+main section {
+  background-color: white;
+  border: 1px solid grey;
+  margin-right: 15px;
+  flex: 3;
+}
+
+main {
+  flex: 7;
+}
+.person-name {
+  color: #5c5c5c;
+  font-size: 2vw;
+  margin: 5px;
+}
+.person-detail,
+.skill-list {
+  font-size: 1.2vw;
+  padding: 25px;
+  list-style: none;
+  color: #009688;
+}
+.person-detail li {
+  margin: 15px 0;
+}
+
+.person-detail li i {
+  margin: 3px;
+}
+.head-section {
+  color: #5c5c5c;
+  padding: 10px;
+  margin: 0px;
+  font-size: 1.6ew;
+}
+.skill-list li {
+  margin: 15px 0px;
+}
+.progress-bar {
+  border: 1px solid grey;
+  border-radius: 15px;
+  height: 1.5em;
+  margin-top: 15px;
+  text-align: center;
+}
+.progress {
+  height: 100%;
+  border-radius: 15px;
+  background-color: #009688;
+}
+.p-60 {
+  width: 60%;
+}
+.p-45 {
+  width: 45%;
+}
+.p-40 {
+  width: 40%;
+}
+.p-50 {
+  width: 50%;
+}
+.progress h4 {
+  color: white;
+}
+.head-section i {
+  color: #009688;
+}
+.work-details {
+  width: 90%;
+  margin: auto;
+  padding: 10px 0px;
+}
+.work-details h3 {
+  color: #5c5c5c;
+  font-size: 1.2vw;
+  margin: 5px 0;
+}
+.work-details > span {
+  color: #009688;
+  margin: 5px 0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.green-span {
+  background-color: #009688;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: normal;
+}
+.hobbies {
+  padding: 10px;
+}
+.hobbies i,
+.referee i {
+  color: #009688;
+}
+.referee {
+  padding: 10px;
+  color: #5c5c5c;
+}
+@media (max-width: 768px) {
+  .head-section {
+    color: #5c5c5c;
+    padding: 10px;
+    margin: 0px;
+    font-size: 0.2ew;
+  }
+  .work-details h3 {
+    font-size: 1.2vw;
+  }
+
+  h2,
+  h3 {
+    font-size: 2vw;
+  }
+}
